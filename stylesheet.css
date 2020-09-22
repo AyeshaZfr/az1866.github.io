@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Grandstander', cursive;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: url("bg03.jpg")  top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#logo{
+    padding-left: 30px;
+}
+
+#Title{
+    text-align: right;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 60%;
+    color: #5caacb;
+}
+
+
+nav{
+    background: #5caacb;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul, header ul{
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 75px;
+    margin: 0px 0px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 13px 13px;
+    border-radius: 3px;
+
+}
+
+.menu a:hover {
+    background-color: #57A0D3;
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    text-transform: uppercase;
+
+}
+
+.Top{
+    display: block;
+    background-color: white;
+    font-family: cursive;
+    color: teal;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-top: 70px;
+}
+.form{
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px; 
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    padding-top: 30px;
+}
+
+.inputBox,  .message{
+    width: 48% ; 
+}
+
+.inputBox .input, .message textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #57A0D3;
+    padding: 10px;
+    color: #57A0D3;
+    width: 100%;    
+}
+
+.message textarea{
+    height:  212px;
+
+}
+.btn{
+    background: #57A0D3;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+footer{
+    width: 100%;
+    background-color: #5caacb;
+    height: 120px;
+    position: sticky;
+    top:85%;
+}
+::-webkit-input-placeholder{
+
+}
