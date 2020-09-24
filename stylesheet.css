@@ -12,27 +12,37 @@
 }
 body{
     background: url("bg03.jpg")  top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 #logo{
     padding-left: 30px;
+    padding-top: 15px;
 }
 
 #Title{
     text-align: right;
     font-weight: bold;
     font-size: 60px;
-    padding-left: 60%;
-    color: #5caacb;
+    padding-left: 60vw;
+    color: #2a4d69;
+}
+.Top{
+    display: block;
+    height: 7-px;
+    background-color: white;
+    font-family: cursive;
+    color: #2a4d69;
 }
 
-
 nav{
-    background: #5caacb;
-    height: 80px;
-    width: 100%;
+    background: #b6dced;
+    height: 50px;
+    width: 100vw;
     position: sticky;
     top: 0px;
 }
@@ -44,33 +54,24 @@ nav ul, header ul{
 
 nav ul li{
     display: inline-block;
-    line-height: 75px;
+    line-height: 50px;
     margin: 0px 0px;
 }
 
 nav ul li a {
-    color: white;
+    color: #2a4d69;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 26px;
     padding: 13px 13px;
     border-radius: 3px;
-
+    text-transform: uppercase;
 }
 
 .menu a:hover {
-    background-color: #57A0D3;
-    color: white;
-    font-size: 30px;
-    font-style: bold;
-    text-transform: uppercase;
-
-}
-
-.Top{
-    display: block;
     background-color: white;
-    font-family: cursive;
-    color: teal;
+    font-size: 26px;
+    font-style: bold;
+
 }
 
 .wrapper{
@@ -105,9 +106,9 @@ nav ul li a {
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #57A0D3;
+    border-bottom: 2px solid #adcbe3;
     padding: 10px;
-    color: #57A0D3;
+    color: #b6dced;
     width: 100%;    
 }
 
@@ -116,7 +117,7 @@ nav ul li a {
 
 }
 .btn{
-    background: #57A0D3;
+    background: #adcbe3;
     text-align: center;
     padding: 20px;
     color: #fff;
@@ -124,13 +125,52 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-footer{
-    width: 100%;
-    background-color: #5caacb;
-    height: 120px;
-    position: sticky;
-    top:85%;
-}
-::-webkit-input-placeholder{
 
+/* video{
+    vertical-align: -50%;
+    transform-y
+} */
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background: #b6dced;
+    height: 175px;
+
+}
+#footerh3{
+    color: #2a4d69;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#footerh1{
+    color: #2a4d69;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.footer_content{
+    display: flex;
+}
+.left-box{
+    padding-left: 30px;
+    padding-top: 20px ;
+}
+.last-box{
+    /* line-height: 100px; */
+    padding-top: 40px;
+}
+.left-box, .middle-box, .last-box{
+    flex-basis:50%;
+    padding-right: 30px;
+}
+.middle-box .links{
+    padding-left: 20px;
+}
+.links a:hover{
+    color: #2a4d69;
+    background-color:  #b6dced;
 }
