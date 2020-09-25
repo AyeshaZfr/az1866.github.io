@@ -5,46 +5,118 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-    <body>
-        <header class="Top">
-            <a href="index.html" target="blank"><img id="logo" style='vertical-align:middle;' src='logo.png' width="150px">
-            <div id ="Title" style='vertical-align:middle; display:inline; ';> TITLE</div></a>
-        </header>
+   
+      <header class="Top">
+          <a href="index.html" target="blank"><img id="logo" style='vertical-align:middle;' src='logo.png' width="150px">
+          <div id ="Title" style='vertical-align:middle; display:inline; ';> TITLE</div></a>
+      </header>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="blank" target=blank>About</a></li>
-                <li><a href="Team.html" target=blank>Team</a></li>
-                <li><a href="ContactUs.html" target=blank>ContactUs</a></li>
-            </ul>
-        </nav>
+      <body>
 
-        <span><video width="500" height="350" controls>
-          <source src="30mins.mov" type="video/mp4"></span>
+      <nav class="menu">
+          <ul>
+              <li><a href="blank" target=blank>About</a></li>
+              <li><a href="Team.html" target=blank>Team</a></li>
+              <li><a href="ContactUs.html" target=blank>ContactUs</a></li>
+          </ul>
+      </nav> 
+
+      <section class="slider" aria-label="Gallery">
+
+        <ol class="slides">
+          <li id="slide_01" tabindex="0" class="slider_slide">
+            <div class="slide_container"><img src="01.png" width="800px" height="400px"></div>
+              <a href="#slider__slide4" class="slider__prev"></a>
+              <a href="#slider__slide2" class="slider__next"></a>
+            
+          </li>
+          <li id="slide_02" tabindex="0" class="slider_slide">
+            <div class="slide_container"><img src="02.png" width="800px" height="400px"></div>
+            <a href="#slider__slide1" class="slider__prev"></a>
+            <a href="#slider__slide3" class="slider__next"></a>
+          </li>
+          <li id="slide_03" tabindex="0" class="slider_slide">
+            <div class="slide_container"><img src="03.png" width="800px" height="400px"></div>
+            <a href="#slider__slide2" class="slider__prev"></a>
+            <a href="#slider__slide4" class="slider__next"></a>
+          </li>
+          <li id="slide_04" tabindex="0" class="slider_slide">
+            <div class="slide_container"><img src="04.png" width="800px" height="400px"></div>
+            <a href="#slider__slide3" class="slider__prev">Go to previous slide</a>
+            <a href="#slider__slide1" class="slider_next">Go to first slide</a>
+          </li>
+        </ol>
+
+        <aside class="slider__navigation">
+          <ol class="slider__navigation-list">
+            <li class="slider_navigation-item">
+              <a href="#slider__slide1" class="slider__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="slider__navigation-item">
+              <a href="#slider__slide2" class="slider__navigation-button">Go to slide 2</a>
+            </li>
+            <li class="slider__navigation-item">
+              <a href="#slider__slide3" class="slider__navigation-button">Go to slide 3</a>
+            </li>
+            <li class="slider__navigation-item">
+              <a href="#slider__slide4" class="slider__navigation-button">Go to slide 4</a>
+            </li>
+          </ol>
+        </aside>
+
+      </section>
+
+    
+
+      <!-- <div class="containter_video"> 
+
+        <div id="video"><video src="30MFF.mp4" type="video/mp4" width="50%" height="100%" controls></video></div>
+      </div>
+      <div class="container_slides">
+        <div class="slide_before"></div>
+        <div class="slide_after"></div>
+        <ul>
+          <li>
+            <img src="01.png">
+          </li>
+          <li>
+            <img src="02.png">
+          </li>
+          <li>
+            <img src="03.png">
+          </li>
+          <li>
+            <img src="04.png">
+          </li>
+        </ul>
+
+      </div> --> -->
+
+
+  
       </body>
 
-      <footer>
+      <div class="footer">
         <div class="footer_content">
           <div class="left-box"><img id="logo" style='vertical-align:middle;' src='logo.png' width="150px"></div>
         
           <div class="middle-box">
             <div id="footerh3">Quick links</div>
-            <div class="links">
-              <div id="footerh1"> <a href="#">Bookings</a></div>
-              <div id="footerh1"><a href="#">Cast Tour</a></div>
-              <div id="footerh1"><a href="#">Timeline</a></div>
-            </div>
+              <div class="links">
+                <div id="footerh1"> <a href="#">Bookings</a></div>
+                <div id="footerh1"><a href="#">Cast Tour</a></div>
+                <div id="footerh1"><a href="#">Timeline</a></div>
+              </div>
           </div>
 
           <div class="last-box">
-    
             <a href="#"><img src="fb_logo.png" width="80px"></a>
             <a href="#"><img src="insta_logo.png" width="80px"></i></a>
             <a href="#"><img src="yt_logo.png" width="80px"></i></a>
-            
           </div> 
         </div>
-      </footer>
+
+      </div>
       
 
 
